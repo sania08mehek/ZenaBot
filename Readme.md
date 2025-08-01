@@ -1,9 +1,7 @@
-# Creating a README.md file with IR's requested content
-readme_content = """
-# 🤖 Chat with PDF Bot
+# 🤖 Chat with ZenaBot
 
 ## Project Name  
-**Chat with PDF Bot — Powered by OpenAI, LangChain, and ChromaDB**
+**ZenaBot — Powered by OpenAI, LangChain, and ChromaDB**
 
 ## 🔍 Short Introduction  
 A Streamlit-based intelligent chatbot that lets users interact with the content of **multiple PDF documents** using natural language. Upload PDFs, ask questions, and get context-aware answers — all backed by OpenAI and LangChain's powerful retrieval mechanisms.
@@ -26,8 +24,7 @@ A Streamlit-based intelligent chatbot that lets users interact with the content 
 - `LangChain`  
 - `ChromaDB`  
 - `Streamlit`  
-- `PyPDF2 / pdfminer / unstructured` (choose one you're using)  
-- `FAISS` *(if you consider replacing Chroma in future)*
+- `PyPDF2`  
 
 ---
 
@@ -51,7 +48,7 @@ pip install -r requirements.txt
 ## 🚀 Running Instructions  
 
 ```bash
-streamlit run app.py
+streamlit run ZenaBot.py
 ```
 
 ---
@@ -61,25 +58,11 @@ streamlit run app.py
 ```
 📁 chat-with-pdf-bot/
 │
-├── app.py                # Main Streamlit app
-├── utils.py              # Utility functions for PDF parsing, embedding, etc.
-├── chains.py             # LangChain chains setup
-├── vectorstore.py        # ChromaDB setup & operations
+├── ZenaBot.py             # Main Streamlit app
 ├── requirements.txt      # Dependencies
-├── assets/               # Custom logo, gradients, SVGs
-└── README.md             # You’re here!
+└── Readme.md             # You’re here!
 ```
 
 ---
 
-## 🤝 Connect  
 
-- [GitHub](https://github.com/your-username)  
-- [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile/)  
-
----
-
-## 🧠 Custom Footer  
-
-**© 2025 Irfan IR || Built with great MOOD😎 , EXCITEMENT🤩 and CURIOSITY🤔**
-"""
